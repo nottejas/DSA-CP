@@ -1,13 +1,8 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-
 int main(){
-    for(int row = 0; row<3; row++){
-        for(int col = 0; col<=5; col++){
-            cout<<"* ";
-        }
-        cout<<endl;
-    }
+    int arr1[] = {1,2,3};
+    int arr2[] = {4,5,6};
+    // cout << arr1 + " " + arr2;
 }
