@@ -2,5 +2,10 @@
 using namespace std;
 
 int main(){
-    cout<<"Fucking sick! I just want to get better.";
+    int temp, a, b;
+    cin>>a>>b>>temp;
+    temp = a;
+    a = b;
+    b = temp;
+    cout << a << " " << b;
 }
