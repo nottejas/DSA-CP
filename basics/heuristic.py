@@ -71,6 +71,6 @@ def greedy_best_first_search(graph, heuristics, start, goal):
     return path
 
 start = 'Arad'
-goal = 'Bucharest'
+goal = 'Iasi'
 path = greedy_best_first_search(graph, heuristics, start, goal)
 print("Path found by GBFS:", path)
